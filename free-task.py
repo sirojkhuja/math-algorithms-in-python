@@ -7,5 +7,7 @@ import sys
 
 base_number = sys.argv[1]
 power = sys.argv[2]
+result = int(base_number)**int(power);
 
-print(power + " power of " + base_number + " is " + str(int(base_number)**int(power)))
+
+print(power + " power of " + base_number + " is " + str(result))
